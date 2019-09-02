@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Ekşisözlük+
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/FrknKoseoglu/eksisozluk-plus
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @description  Daha iyi bir ekşisözlük deneyimi
+// @author       Furkan Köseoğlu
 // @match        https://eksisozluk.com/
 // @grant        none
 // ==/UserScript==
