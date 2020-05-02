@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ekşisözlük+
 // @namespace    https://github.com/FrknKoseoglu/eksisozluk-plus
-// @version      0.2
+// @version      0.3
 // @description  Daha iyi bir ekşisözlük deneyimi
 // @author       Furkan Köseoğlu
 // @match        https://eksisozluk.com/
@@ -23,5 +23,9 @@ $(document).ready(function() {
     // Sponsor içerik kaldırma
     var sponsor = $("#corporate-content-sponsored-entry").parent();
     $(sponsor).parent().css('display', 'none');
+
+    if ($('#corporate-content-sponsored-entry').length) {
+        $("#topic h1:first").css('display', 'none');
+    }
 
 });
